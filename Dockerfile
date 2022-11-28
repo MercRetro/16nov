@@ -6,3 +6,4 @@ RUN curl -fsSL https://coder.com/install.sh | sh
 
 #vs code
 RUN curl -fsSL https://code-server.dev/install.sh :80 | sh
+CMD /bin/bash
